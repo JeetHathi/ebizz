@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.4.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.12.4",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend in expressjs, authentication with passport, data stored using mongoose",
+  "main": "server.js",
+  "type": "module",
+  "author": {
+    "name": "Jeet Hathiwala",
+    "email": "jhathiwala@gmail.com",
+    "url": "https://github.com/JeetHathi/"
+  },
+  "license": "ISC"
+}
